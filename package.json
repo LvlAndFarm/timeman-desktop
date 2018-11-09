@@ -2,8 +2,9 @@
   "name": "timeman-desktop",
   "version": "1.0.0",
   "description": "Time management app with SRS revision",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +15,8 @@
     "interhigh"
   ],
   "author": "Walid Nawfal Sabihi",
-  "license": "CC-BY-SA-4.0"
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "electron": "^3.0.8"
+  }
 }
